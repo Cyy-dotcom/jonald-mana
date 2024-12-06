@@ -1,0 +1,126 @@
+/* Global Styles */
+body {
+    font-family: 'Roboto', sans-serif;
+    margin: 0;
+    padding: 0;
+    background-color: #909090;
+    color: #333;
+  }
+  
+  h2 {
+    text-align: center;
+    font-size: 38px;
+    color: #2c3e50;
+    margin-top: 50px;
+    text-transform: uppercase;
+    font-weight: bold;
+    letter-spacing: 1px;
+    border-bottom: 3px solid #3498db;
+    padding-bottom: 10px;
+    margin-bottom: 40px;
+  }
+  
+  /* Achievements Section */
+  #Achievements {
+    width: 90%;
+    max-width: 1200px;
+    margin: 0 auto;
+    padding: 40px;
+    background-color: #ffffff;
+    border-radius: 15px;
+    box-shadow: 0 8px 16px rgba(0, 0, 0, 0.1);
+  }
+  
+  /* Achievement Block Styling */
+  .Achievements {
+    background-color: #838383;
+    padding: 25px;
+    margin-bottom: 30px;
+    border-radius: 10px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    transition: transform 0.3s ease, box-shadow 0.3s ease;
+  }
+  
+  .Achievements:hover {
+    transform: translateY(-8px);
+    box-shadow: 0 6px 20px rgba(0, 0, 0, 0.15);
+  }
+  
+  .Achievements h3 {
+    font-size: 26px;
+    color: #000000;
+    text-align: center;
+    margin-bottom: 15px;
+    font-weight: 600;
+    letter-spacing: 1px;
+  }
+  
+  .Achievements p {
+    font-size: 16px;
+    color: #000000;
+    line-height: 1.6;
+    text-align: center;
+    margin: 8px 0;
+    transition: color 0.3s ease;
+  }
+  
+  .Achievements p:hover {
+    color: #fdff9d;
+  }
+  
+  /* Image Section Styling */
+  .image {
+    display: flex;
+    justify-content: space-between;
+    gap: 20px;
+    flex-wrap: wrap;
+    margin-top: 40px;
+  }
+  
+  .image img {
+    width: 30%;
+    height: auto;
+    border-radius: 10px;
+    box-shadow: 0 4px 12px rgba(0, 0, 0, 0.1);
+    transition: transform 0.3s ease, box-shadow 0.3s ease;
+  }
+  
+  .image img:hover {
+    transform: scale(1.05);
+    box-shadow: 0 6px 20px rgba(0, 0, 0, 0.2);
+  }
+  
+  /* Responsive Design */
+  @media (max-width: 768px) {
+    #Achievements {
+      width: 90%;
+      padding: 20px;
+    }
+  
+    .Achievements {
+      width: 100%;
+    }
+  
+    .image img {
+      width: 45%;
+    }
+  }
+  
+  @media (max-width: 480px) {
+    h2 {
+      font-size: 32px;
+    }
+  
+    .Achievements h3 {
+      font-size: 22px;
+    }
+  
+    .Achievements p {
+      font-size: 14px;
+    }
+  
+    .image img {
+      width: 90%;
+      margin-bottom: 15px;
+    }
+  }

@@ -1,0 +1,81 @@
+/* style.css */
+
+body {
+    font-family: 'Arial', sans-serif;
+    margin: 0;
+    padding: 0;
+    background-color: #909090;
+    color: #ffffff;
+}
+
+#education {
+    padding: 50px 0;
+    max-width: 960px;
+    margin: 0 auto;
+    text-align: center; /* Center align the section content */
+}
+
+.education-container {
+    display: flex;
+    flex-direction: column;
+    gap: 30px; /* Increase the gap between items */
+}
+
+.education-item {
+    background-color: #ffffff;
+    padding: 25px; /* Increase padding */
+    border-radius: 10px; /* Rounder corners */
+    box-shadow: 0 4px 8px rgb(0, 0, 0); /* Stronger shadow */
+}
+
+.education-item h3 {
+    margin-top: 0;
+    font-size: 1.8rem; /* Larger heading */
+    color: #000000;
+    text-transform: uppercase; /* Uppercase for emphasis */
+}
+
+.education-item h4 {
+    color: #000000;
+    margin: 10px 0 15px 0; /* More spacing */
+    font-size: 1.2rem; /* Larger subheading */
+}
+
+.education-item p {
+    margin-bottom: 15px; /* More spacing */
+    font-size: 1rem;
+    color: #000000;
+}
+
+.education-item ul {
+    list-style: disc;
+    margin-left: 20px;
+    font-size: 1rem;
+}
+
+.education-item ul li {
+    margin-bottom: 8px;
+}
+
+/* Responsive Design (optional) */
+
+@media screen and (max-width: 768px) {
+    #education {
+        padding: 20px;
+    }
+
+    .education-item {
+        padding: 15px;
+    }
+
+    .education-item h3 {
+        font-size: 1.5rem;
+    }
+
+    .education-item h4 {
+        font-size: 1rem;
+    }
+    .education-item:hover {
+        transform: scale(1.05);
+    }
+}

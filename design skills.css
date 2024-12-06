@@ -1,0 +1,43 @@
+body {
+  font-family: 'Arial', sans-serif;
+  background-color: #f4f4f4;
+  margin: 30;
+  padding: 50;
+}
+
+#Skills {
+  background-color: #fff;
+  padding: 50px;
+  text-align: center;
+}
+
+h2 {
+  color: #333;
+  margin-bottom: 50px;
+  font-size: xx-large;
+}
+
+.Skills-container {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: normal;
+}
+
+.Skills-item {
+  background-color: #969696;
+  padding: 60px;
+  margin: 50px;
+  border-radius: 20px;
+  box-shadow: 3 5px 7px rgba(0, 0, 0, 0.1);
+  width: 700px;
+  text-align: center;
+}
+
+.Skills-item p {
+  margin: 0;
+  font-weight: bold;
+  font-size: x-large;
+}
+.Skills-item:hover {
+  transform: scale(1.05);
+}
